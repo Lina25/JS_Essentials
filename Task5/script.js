@@ -65,7 +65,7 @@ function m(a, b) {
   return arr;
 }
 // n(1)(2)(3) => 6, n(5)(25)(8) => 38, n(3)(-5)(0) => -2, typeof n() => number
-function n(a) {
+ function n(a) {
   return function (b) {
     return function (c) {
       return a + b + c;
