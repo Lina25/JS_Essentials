@@ -8,10 +8,10 @@ function pow(a, n) {
 }
 // d(1) => {a:1}, d(123) => {a:123}, typeof d() => object
 function d(a) {
-  var o = {
-    a: b
+   obj = {
+    a: a
   }
-  return o;
+  return obj;
 }
 // e(55)() => 55, e(123)() => 123, typeof e() => function
 function e(a) {
@@ -38,7 +38,7 @@ function g(a) {
 }
 // h(function(){return 5}) => 5, h(function(){return 123}) => 123, typeof h() => number
 function h(a) {
-  return a;
+  return a();
 }
 // j([1,2,3]) => 6, j([12,34,56]) => 102, typeof j() => number
 function j(a) {
