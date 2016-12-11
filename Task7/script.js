@@ -2,7 +2,7 @@ var ask = confirm("Do you want to play the game?");
 
 if (ask == true) {
   
- var rand_int = Math.round(Math.random() * 2);
+ var rand_int = Math.round(Math.random() * 5);
   var guess;
   var ask2;
   var win = 0;
