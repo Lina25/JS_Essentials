@@ -9,7 +9,7 @@ function pow(a, n) {
 // d(1) => {a:1}, d(123) => {a:123}, typeof d() => object
 function d(a) {
    obj = {
-    a: a
+    a: b
   }
   return obj;
 }
