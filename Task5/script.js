@@ -7,7 +7,7 @@ function pow(a, n) {
   return Math.pow(a, n);
 }
 // d(1) => {a:1}, d(123) => {a:123}, typeof d() => object
-function d(a) {
+function d(b) {
    obj = {
     a: b
   }
